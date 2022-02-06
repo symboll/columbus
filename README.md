@@ -1,4 +1,4 @@
-# zxxk
+# Columbus
 
 A new Flutter project.
 
@@ -47,3 +47,9 @@ getx
 ## Stream
 ## Rxdart
 ## bloc  = business logic Component
+
+
+#### 杀死安卓模拟器
+``` shell
+adb emu kill
+```

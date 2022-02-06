@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'dart:async';
-
 class BottomSheetDemo extends StatefulWidget {
   const BottomSheetDemo({ Key? key }) : super(key: key);
 
@@ -36,10 +35,13 @@ class _BottomSheetDemoState extends State<BottomSheetDemo> {
 
   Future<void> _openModalBottomSheet () async {
     String _result = await showModalBottomSheet(
+      isDismissible: false,
       context: context, 
       builder: (BuildContext context) => Container(
         height: 200.0,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             ListTile(
               title: Text('Option A'),

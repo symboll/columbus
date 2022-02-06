@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:zxxk/model/post.dart';
+import 'package:Columbus/model/post.dart';
 
 
 class CardDemo extends StatefulWidget {

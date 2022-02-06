@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:Columbus/demo/form_demo/form.dart';
 import 'pages/i18n_page.dart';
 import 'pages/animation_page.dart';
 import 'pages/http_page.dart';
@@ -45,6 +46,7 @@ class App extends StatelessWidget {
         '/http': (BuildContext context) => const HttpPage(), 
         '/animation': (BuildContext context) => const AnimationPage(), 
         '/i18n': (BuildContext context) => const I18nPage(), 
+        '/form': (BuildContext context) => const FormPage(), 
 
         '/single': (BuildContext context) => const single_page.Page('Single'),
         '/mdc': (BuildContext context) => const MdcPage()
